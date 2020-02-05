@@ -15,8 +15,7 @@ import dummyData from "./dummy-data"
 const App = () => {
   // set up state for the dummy data and pass to your PostsPage
   const [data, datafn] = useState(dummyData)
-  // * Y doesnt useState have two elements in array ???
-  console.log([data])
+  // create data state and set that euqal to a variable which can be used in the PostPAge.js comporent 
   return (
     <div className="App">
    <SearchBar />
